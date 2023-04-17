@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141F26;
+    color: #BFBFBF;
+}
+
+main {
+    max-width: 360px;
+    margin: 30px auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+h1 span {
+    font-size: 1rem;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form div.basic {
+   display: flex;
+   gap: 5px; 
+   margin-bottom: 5px;
+}
+
+form div input {
+    width: 100%;
+}
+
+form input[type="datetime-local"] {
+    color: #ddd;
+}
+
+form input {
+    background-color: transparent;
+    color: #ddd;
+    border-radius: 5px;
+    border: 3px solid #2D3540;
+    padding: 5px 5px;
+}
+
+form button {
+    border: 0px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+
+div.transactions {
+    margin-top: 20px;
+}
+
+div.transaction  {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #2D3540;
+}
+
+div.description, div.datetime {
+    /* font-style: italic; */
+    font-size: 0.8rem;
+}
+
+div.price {
+    text-align: right;
+}
+
+div.debit {
+    color: red;
+}
+
+div.credit {
+    color: green;
+}
+
